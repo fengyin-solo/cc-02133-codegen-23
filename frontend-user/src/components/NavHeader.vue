@@ -39,6 +39,7 @@ const menuItems = [
   { name: '首页', path: '/' },
   { name: '关于我们', path: '/about' },
   { name: '产品服务', path: '/products' },
+  { name: '成本估算', path: '/cost-estimator' },
   { name: '案例展示', path: '/cases' },
   { name: '联系我们', path: '/contact' }
 ]

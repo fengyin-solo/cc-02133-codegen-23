@@ -20,6 +20,12 @@ const routes = [
     meta: { title: '产品服务' }
   },
   {
+    path: '/cost-estimator',
+    name: 'CostEstimator',
+    component: () => import('@/views/estimator/CostEstimatorView.vue'),
+    meta: { title: '物流成本估算器' }
+  },
+  {
     path: '/cases',
     name: 'Cases',
     component: () => import('@/views/CaseView.vue'),
