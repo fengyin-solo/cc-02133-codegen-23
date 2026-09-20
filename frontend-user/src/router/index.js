@@ -30,6 +30,13 @@ const routes = [
     name: 'Contact',
     component: () => import('@/views/ContactView.vue'),
     meta: { title: '联系我们' }
+  },
+  {
+    // 独立工具页：不改动任何原有产品页面
+    path: '/estimator',
+    name: 'Estimator',
+    component: () => import('@/views/EstimatorView.vue'),
+    meta: { title: '物流成本估算器' }
   }
 ]
 
